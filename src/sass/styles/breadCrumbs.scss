@@ -1,0 +1,24 @@
+.breadcrumbs{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration:none;
+
+}
+.breadcrumbs a{
+    color:#9FA7B0 ;
+    margin-right: 16px;
+}
+.breadcrumbs span{
+    color:#9FA7B0 ;
+    margin-right: 16px;
+}
+.breadcrumbs__third p{
+    color: #282C37;
+}

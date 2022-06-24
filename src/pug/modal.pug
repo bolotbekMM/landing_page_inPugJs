@@ -1,0 +1,18 @@
+section.modal 
+    form.js__form
+        .modal__content
+            img(src="./assets/x.svg" alt="closeButton").modal__close-btn
+            h4 Оставьте заявку
+            .input__container
+                input(type="text" placeholder="Ваше имя").modal__input.js-input
+                span.modal__input-name-error.modal__text-error поле обязательно*
+            .input__container
+                input(type="text" placeholder="Email").modal__input.js-input
+                span.modal__input-name-error.modal__text-error поле обязательно*
+            .input__container
+                textarea(type="text" placeholder="Пожалуйста опишите вашу проблему").modal__textarea.js-input
+                span.modal__textarea-error.modal__textarea-error поле обязательно*
+            button(type='submit').modal__footer-button
+                span Отправить
+            .modal__send-imitation-text
+                span.loading Ваша заявка успешно отправлена!

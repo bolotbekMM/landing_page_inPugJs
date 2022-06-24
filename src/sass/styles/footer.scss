@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    background: #3F4750;
+    min-height: 70px;
+
+    &__box{
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icon-block{
+        width: 120px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        svg{
+            color: #9FA7B0;
+        }:hover{
+            color: #47CF34;
+        }
+        
+       
+    }
+    &__content-block{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.03em;
+        color: #9FA7B0;
+    }
+    &__item{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+}
