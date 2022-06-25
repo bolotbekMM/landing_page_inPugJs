@@ -1,4 +1,7 @@
 .trainingDetails{
+    @media (max-width: 992px) { 
+        margin-top: 101px;
+    }
     &__head{
         h2{
             font-family: 'Montserrat';
@@ -92,7 +95,7 @@
     }
     &__ul{
         list-style: none;
-        padding: 25px 0px 28px 40px;
+        padding: 25px 0px 0px 40px;
     }
     &__li{
         margin-bottom: 17px;
