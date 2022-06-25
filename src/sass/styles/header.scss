@@ -1,0 +1,138 @@
+.header{
+    position: fixed;
+    background-color: #ffff;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 70px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    &__box{
+        height: 100%;
+    };
+    &__logo{
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    };
+  
+    &__navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: 992.98px) { 
+            display: none;
+        }
+    };
+    &__navbar p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:#282C37;
+        text-transform: uppercase;
+    };
+    &__navbar a{
+        font-weight: 500;
+    };
+    .burger-btn{
+        display: none;
+        @media (max-width: 992.98px) { 
+            display: block;
+        }
+    }
+    &__media{
+        width: 120px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        @media (max-width: 992.98px) { 
+            display: none;
+        }
+    }
+    &__mediabox{
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        svg{
+            color: #282C37;
+        }:hover{
+            color: #47CF34;
+        }
+    }
+    &__active{
+        font-weight: 700 !important;
+    }
+}
+
+
+
+.menu {
+	position: fixed;
+    overflow: auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+    background: #ffff;
+	transform: translateX(100%);
+	transition: transform 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+}
+.active__burger {
+	transform: translateX(0);
+    opacity: 1;
+}
+    .burgerLogo{
+        margin-top: 137px;
+        margin-bottom: 80px;
+        width: 64px;
+        height: 69px;
+    }
+    .burger-nav {
+        margin-bottom: 71px;
+        a {
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #282C37;
+        }
+        p{
+            margin-bottom: 45px;
+        }
+    }
+    .burger-media{
+        margin-bottom: 160px;
+        width: 152px;
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        svg{
+            color:  #282C37;;
+        }
+        svg:hover{
+            color: #47CF34;
+
+        }
+    }
+
+

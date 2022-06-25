@@ -1,0 +1,113 @@
+.trainings{
+    margin: 31px 0px 78px;
+    @media (max-width: 992px) { 
+        margin-top: 101px;
+
+    }
+    
+}
+
+.trainings__box{
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(40, 44, 55, 0.2);
+    border-radius: 20px;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 992px) { 
+        padding-right: 15px;
+        padding: 25px 15px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .button button{
+        background: #287EE7;
+        border-radius: 8px;
+        padding: 14px 25px 14px 23px;
+        border: none;
+        display: flex;
+        align-items: center;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 39px;
+        margin-left: 29px;
+    }
+
+    .button button:hover{
+        background: #4B9AFB;
+    }
+    img{
+        margin-left: 50px;
+    }
+}
+.training__content{
+    padding: 39px 38px 31px;
+    h3{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        color: #282C37;
+    }
+    p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #282C37;
+        margin: 31px 0px 5px;
+    }
+    span{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #282C37;
+    }
+    
+    
+}
+.trainings__ul{
+    list-style: none;
+    padding-top: 54px;
+    padding-right: 137px;
+    @media (max-width: 1200px) { 
+        padding-right: 37px;
+
+    }
+    @media (max-width: 992px) { 
+        padding-right: 15px;
+        padding: 25px 15px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    li{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 16px;
+    }
+    p{
+        margin-left: 41px;
+
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: #282C37;
+    }
+}
+
