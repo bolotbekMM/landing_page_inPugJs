@@ -110,6 +110,8 @@
     .block__blue-third,
     .block__blue-fourth {
         height: 249px !important;
+        display: flex;
+        flex-direction: column;
         img {
             width: 68.74px;
             height: 57.4px;
