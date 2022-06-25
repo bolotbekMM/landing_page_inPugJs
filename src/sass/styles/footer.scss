@@ -2,12 +2,23 @@
     width: 100%;
     background: #3F4750;
     min-height: 70px;
+    @media (max-width: 550.98px) { 
+        min-height: 107px;
+    }
+    @media (max-width: 320.98px) { 
+        min-height: 127px;
+    }
 
     &__box{
         min-height: 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media (max-width: 550.98px) { 
+            display: flex;
+            flex-direction: column-reverse;
+            margin-bottom: 27px;
+        }
     }
 
     &__icon-block{
@@ -32,10 +43,20 @@
         line-height: 17px;
         letter-spacing: 0.03em;
         color: #9FA7B0;
+        @media (max-width: 550.98px) { 
+            display: flex;
+            justify-content: center;
+           
+        }
     }
     &__item{
         display: flex;
         justify-content: flex-end;
         margin: 0;
+        @media (max-width: 550.98px) { 
+            margin-top: 30px;
+            margin-bottom: 22px;
+           
+        }
     }
 }
